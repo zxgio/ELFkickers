@@ -1,0 +1,13 @@
+*.o
+*.a
+bin
+doc
+ebfc/ebfc
+elfls/elfls
+elftoc/elfnames.c
+elftoc/elftoc
+elftoc/mknames
+infect/infect
+objres/objres
+rebind/rebind
+sstrip/sstrip
