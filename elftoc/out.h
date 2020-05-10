@@ -7,6 +7,10 @@
 #ifndef	_out_h_
 #define	_out_h_
 
+/* Forces the output of data sections to be hexadecimal byte values.
+ */
+extern void forcehexbytes(void);
+
 /* Outputs one piece of the ELF file, located at the given offset and
  * size, and represented as the indicated type. ndx is the piece's
  * index value, which can be used to access data associated with the
